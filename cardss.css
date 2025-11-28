@@ -1,0 +1,77 @@
+.Catalogtitle{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img.orcoprinci{
+    width: 30%;
+}
+
+body{
+     
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("Img/background.png"); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+h1 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 4rem;
+    color: #c8892b;            /* Dorado quemado */
+    text-shadow: 3px 3px 10px black;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 2rem;
+    color: #b13a22;           /* Rojo fuego */
+    text-shadow: 2px 2px 8px black;
+    margin-top: 0;
+}
+p {
+    font-size: 1.2rem;
+    color: #e3d7b6;           /* Arena clara */
+    line-height: 1.6;
+}
+
+.card{
+    background:url('/Img/fondocard.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 18px;
+    border: 3px solid #5a1f12;
+    box-shadow: 0 0 15px #000;
+
+}
+
+.card figure img {
+
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid #8b2b15;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h2 {
+
+    text-align: center;
+    color: #ffb27c;
+    margin-bottom: 10px;
+    font-size: 6rem
+}
+
+p {
+
+    text-align: center;
+    color: #ffb27c;
+    margin-bottom: 10px;
+    font-size: 3rem
+}

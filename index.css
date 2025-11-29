@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Pirata One', serif;
+    font-size: 104px;
+    color: #b07215;            /* Dorado quemado */
+    text-shadow: 3px 3px 10px black;
+    margin: 5px 0px 10px;
+    text-shadow: 2px 2px 1px #5c1f0e,
+                8px 8px 15px #000000;
+    padding-left: 30px;
+    letter-spacing: 5px;
+    height: 100px;
+}
+#subtitle{
+    font-family: 'Pirata One', serif;
+    font-size: 30px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    color: #bc7f25;
+    text-shadow: 1px 1px 1px #4e0606,
+                1px 1px 1px #000000;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: url("/img/fondo_redirect.png");
+    background-size: cover;
+    background-position: center;
+}
+.redirect{
+    font-size: 32px;
+    font-family: 'Pirata One', cursive;
+    color: #b07215;
+    text-shadow: 2px 2px 8px black;
+    padding: 5px;
+    letter-spacing: 5px;
+}
+
+body{
+    background-image: url(Img/fondo.png);
+    background-size: cover;;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+section{
+    background: url(img/second_fondo\ _index.png);
+}
+
+#introduction{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 24px;
+    color: #0e0e0e;
+    line-height: 0.95;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.title_intro{
+    color: #b07215;
+    text-shadow: 2px 4px 2px #000000,
+                4px 4px 8px #000000;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Rules{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 24px;
+    color: #0e0e0e;
+    line-height: 0.95;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}

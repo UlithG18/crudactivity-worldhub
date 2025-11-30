@@ -87,3 +87,71 @@ a{
     margin-right: 5px;
     border-radius: 10px;
 }
+
+.dropdown-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+/* Image of principal button */
+.relation-icon {
+    width: 180px;
+    height: auto;
+    transition: transform 0.25s ease, filter 0.25s ease;
+    cursor: pointer;
+    filter: drop-shadow(0 0 6px #000);
+}
+
+/* hover effect */
+.relation-icon:hover {
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 12px #d4a147) brightness(1.2);
+}
+.relation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline;
+}
+/* Hide menu initially */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 110%;
+    transform: translateX(-50%);
+    background: rgba(20, 20, 20, 0.95);
+    border: 2px solid #b07215;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 220px;
+    z-index: 999;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+/*Show menu to make hover*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Elements inside menu*/
+.dropdown-content a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    color: #ffd27e;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+.dropdown-content a:hover {
+    background: rgba(255, 220, 120, 0.15);
+}
+/*Image of the world*/
+.dropdown-content img {
+    width: 140px;
+    height: 100px;
+}

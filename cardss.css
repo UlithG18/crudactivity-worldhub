@@ -1,0 +1,211 @@
+#great_title {
+    font-family: 'Pirata One', serif;
+    font-size: 104px;
+    color: #b07215;
+    text-shadow: 3px 3px 10px black;
+    margin: 5px 0px 10px;
+    text-shadow: 2px 2px 1px #5c1f0e,
+        8px 8px 15px #000000;
+    padding-left: 30px;
+    letter-spacing: 5px;
+    height: 100px;
+}
+
+#subtitle {
+    font-family: 'Pirata One', serif;
+    font-size: 30px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    color: #bc7f25;
+    text-shadow: 1px 1px 1px #4e0606,
+        1px 1px 1px #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: url(Img/fondo_redirect.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.redirect {
+    font-size: 32px;
+    font-family: 'Pirata One', cursive;
+    color: #b07215;
+    text-shadow: 2px 2px 8px black;
+    padding: 5px;
+    letter-spacing: 5px;
+}
+
+.Catalogtitle {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img.orcoprinci {
+    width: 30%;
+}
+
+/* trying to make a flip card effect
+.flip:hover {
+    transform: rotateY(180deg);
+}
+
+.flip {
+    transition: transform 1s;
+}*/
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("Img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Cinzel', serif;
+}
+
+h1.secondtitle {
+    font-family: 'Pirata One', serif;
+    font-size: clamp(3rem, 6vw, 8rem);
+    color: #b07215;
+    /* Dorado quemado */
+    text-shadow: 3px 3px 10px black;
+    margin: 40px 0;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+h1.supertitle {
+    font-family: 'IM Fell English SC', serif;
+    font-size: clamp(2rem, 4vw, 5rem);
+    color: #c8892b;
+    text-shadow: 3px 3px 10px black;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.card {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    padding: 10px;
+    background: url('/Img/fondocard.png');
+    background-size: cover;
+    background-position: center;
+
+    margin: 0;
+    border-radius: 20px;
+    border: 3px solid #5a1f12;
+    box-shadow: 0 0 15px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card figure img {
+
+    width: 12vw;
+    max-width: 120px;
+    height: auto;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 3px solid #8b2b15;
+    display: block;
+    margin: 0 auto 10px;
+
+}
+
+.card h2 {
+
+    text-align: center;
+    color: #ffb27c;
+    margin-bottom: 5px;
+    font-size: clamP(1.5rem, 3vw, 2.5rem)
+}
+
+.card p {
+
+    text-align: center;
+    color: #ffb27c;
+    margin-bottom: 5px;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
+}
+
+@media (max-width: 1200px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#play_music {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.351);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#patas {
+    flex-direction: column;
+    align-items: center;
+    font-family: 'IM Fell English SC', serif;
+    margin: 5px;
+    margin-top: 10px;
+    display: flex;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: url(Img/fondo_footer.png);
+    background-size: cover;
+    background-position: center;
+    color: blanchedalmond
+}
+
+#patas .links {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 5px;
+}
+
+#derechos {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'IM Fell English SC', serif;
+    position: center;
+    color: blanchedalmond
+}

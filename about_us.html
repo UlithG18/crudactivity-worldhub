@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Varkun | Kingdom of the Blood Forges...</title>
+</head>
+
+<body>
+    <audio id="sonora_uno" loop>
+        <source src="music/sonora_uno.wav" type="audio/wav">
+    </audio>
+    <button id="play_music" onclick="document.getElementById('sonora_uno').play()">
+        <img src="Img/play_music.svg" alt="Play Music" width="15" height="15">
+    </button>
+
+    <header>
+        <h1>Varkun</h1>
+        <p id="subtitle">Kingdom of the Blood Forges......</p>
+    </header>
+
+    <nav>
+        <a class="redirect" href="index.html">Home</a>
+        <a class="redirect" href="cardss.html">Catalog</a>
+        <a class="redirect" href="...">System</a>
+    </nav>
+    <main class="section">
+        <section id="introduction">
+            <h2 class="title_intro"></h2><br><br><br>
+            <p><strong>Andreina</strong><br><br>
+
+                In this project, the goal was to create an HTML visual layout featuring cards that represent the
+                characters, places, and weapons used by the Orc race. These cards are divided into blocks of three and
+                were built using semantic tags such as section, article, and figure.
+
+                The design includes a fixed background, custom fonts, fantasy-style cards, and circular images.
+
+                For the structure of the page, we used an HTML file (cardss.html) that contains all the written content
+                and layout organization. In this file, we linked the CSS stylesheet and arranged the cards within
+                sections and articles—sections represented each category, while articles contained each individual card.
+
+                We also used a CSS file (cardss.css) to create all visual adjustments, including sizes, shapes, card
+                styles, text fonts, and more. In this file, we defined the container (Row) that organizes the cards into
+                three columns. The goal was not only to split the layout into thirds but also to add spacing between
+                cards, adapt to available space, and correctly center each card.
+
+                Additionally, responsive design was implemented using @media, ensuring that the page displays correctly
+                on mobile devices.
+
+                We added the .card class, where all card modifications were made, such as background, size, and other
+                visual properties.
+                We also used .card figure img, which handled the styling of the images placed inside the cards.
+
+                The website background was configured within the CSS file as well.
+
+                The project folder contains all the images used in this section of the page.<br><br>
+
+                <strong>Faiber</strong><br><br>
+
+                I created the entire base structure for the HTML project using the required semantic tags, as well as
+                the “Relations” section and its CSS styling.
+
+                The semantic elements I used include:
+
+                head: Header of the page
+
+                nav: Contains the navigation menu so users can quickly move between sections
+
+                main: Main content of the page
+
+                section: Independent blocks for each part of the page
+
+                footer: Bottom area where additional information is added<br><br>
+
+                <strong>Ulith</strong><br><br>
+
+                I was responsible for the documentation and the footer. However, I later took charge of the repository
+                and everything related to GitHub. Because of this, I ended up helping resolve issues that came up and
+                contributing to the overall organization of the project files<br><br>
+
+                <strong>Julian</strong><br><br>
+
+                Homepage layout in HTML, visual presentation of the homepage, titles, and footer.
+            </p>
+            <br>
+            <h4 class="title_intro"></h4>
+            <p></p>
+            <h4 class="title_intro"></h4>
+            <p></p>
+        </section>
+        <footer id="patas">
+            <div class="links">
+                <a href="index.html">Catalog</a>
+                <a href="#">Home</a>
+                <a href="https://github.com/UlithG18/crudactivity-worldhub" target="_blank">Github Profile</a>
+            </div>
+            <h2 id="footer-title">Varkun - Realm of the Blood-Forges</h2>
+            <p id=patas>
+                <strong>Clan Name:</strong> Volcanic Forgers<br><br>
+                <strong>Team Members:</strong> Julián Aponte, Andreina Arevalo, Faiber Camacho, Ulith Giraldo
+            </p>
+            <p id="derechos">©2025 Varkun. All rights reserved.</p>
+        </footer>
+</body>
+
+</html>

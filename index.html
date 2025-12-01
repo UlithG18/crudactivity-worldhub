@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
@@ -9,120 +10,127 @@
 </head>
 
 <body>
-<audio id="sonora_uno" loop>
-    <source src="music/sonora_uno.wav" type="audio/wav">
-</audio>
-<button id="play_music" onclick="document.getElementById('sonora_uno').play()">
-    <img src="Img/play_music.svg" alt="Play Music" width="15" height="15">
-</button>
+    <audio id="sonora_uno" loop>
+        <source src="music/sonora_uno.wav" type="audio/wav">
+    </audio>
+    <button id="play_music" onclick="document.getElementById('sonora_uno').play()">
+        <img src="Img/play_music.svg" alt="Play Music" width="15" height="15">
+    </button>
 
-    <header><h1>Varkun</h1>
-    <p id="subtitle">Kingdom of the Blood Forges......</p>
+    <header>
+        <h1>Varkun</h1>
+        <p id="subtitle">Kingdom of the Blood Forges......</p>
     </header>
 
     <nav>
         <a class="redirect" href="cardss.html">Catalog</a>
-        <a class="redirect" href="...">Varkun-Catalog</a>
+        <a class="redirect" href="about_us.html">About Us</a>
         <a class="redirect" href="...">System</a>
     </nav>
 
     <main class="section">
         <section id="introduction">
             <h2 class="title_intro">About Varkun</h2>
-            <p>The Varkun are a proud orcish race known for their strength, craftsmanship, and bond with fire. 
-            Other races call their homeland “The Realm of the Blood-Forges”, a harsh land of volcanic plains, iron canyons, and ancient ritual forges.
-            <br>
+            <p>The Varkun are a proud orcish race known for their strength, craftsmanship, and bond with fire.
+                Other races call their homeland “The Realm of the Blood-Forges”, a harsh land of volcanic plains, iron
+                canyons, and ancient ritual forges.
+                <br>
             <h4 class="title_intro">Identity & Culture</h4>
-            <p>The Varkun believe strength is a responsibility, not cruelty. Every warrior forges a personal relic, weapon, mask, or totem in the sacred Blood-Forges, binding their spirit to the fire.<br>
-            Their ancestors are honored in the Heartforge, a volcano-temple where fallen warriors are returned to the flames.<br>
-            They live in organized clans, each known for a unique craft or way of war, but all united by honor and loyalty.</p>
+            <p>The Varkun believe strength is a responsibility, not cruelty. Every warrior forges a personal relic,
+                weapon, mask, or totem in the sacred Blood-Forges, binding their spirit to the fire.<br>
+                Their ancestors are honored in the Heartforge, a volcano-temple where fallen warriors are returned to
+                the flames.<br>
+                They live in organized clans, each known for a unique craft or way of war, but all united by honor and
+                loyalty.</p>
             <h4 class="title_intro">Origins</h4>
-            <p>Says the first Varkun were born from the ashes of a celestial fire that struck the northern steppes, whether myth or truth, fire remains central to their identity and magic.</p>
+            <p>Says the first Varkun were born from the ashes of a celestial fire that struck the northern steppes,
+                whether myth or truth, fire remains central to their identity and magic.</p>
         </section>
         <!--3.c) relations-->
         <section id="relations">
-        <h2>Relations</h2>
-        <p>Explanation how about fuction the world</p>
-        <div class="relation-buttons">
-            <!-- BOTÓN 1 -->
-            <div class="dropdown">
-                <button class="dropdown-btn">
-                    <img src="imgs/alliesimage.png" alt="Boton 1">
-                </button>
-
-                <div id="boton_uno">
-                    <a href="mundo1.html">"mundo uno"</a>
-                    <a href="mundo2.html">
-                        <img src="img/mundo2.png" alt="Mundo 2">
-                    </a>
+            <h2 class="title_intro">Relations</h2>
+            <div class="relation-buttons">
+                <!-- BOTÓN 1 -->
+                <div class="dropdown">
+                    <button class="dropdown-btn">
+                        <img class="relation-icon" src="imgs/alliesimg.png" alt="Allies Button">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="mundo1.html">
+                            <img src="imgs/goblins.jpeg" alt="Goblins">
+                        </a>
+                        <a href="mundo2.html">
+                            <img src="imgs/dwarve.jpeg" alt="dwarve">
+                        </a>
+                    </div>
+                </div>
+                <!-- BOTÓN 2 -->
+                <div class="dropdown">
+                    <button class="dropdown-btn">
+                        <img class="relation-icon" src="imgs/enemies.png" alt="Button 2">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="mundo3.html">
+                            <img src="imgs/humans.jpeg" alt="humans">
+                        </a>
+                        <a href="mundo4.html">
+                            <img src="imgs/elfos.png" alt="elfos">
+                        </a>
+                        <a href="mundo5.html">
+                            <img src="imgs/fairys.jpeg" alt="Mundo 5">
+                        </a>
+                    </div>
+                </div>
+                <!-- BOTÓN 3 -->
+                <div class="dropdown">
+                    <button class="dropdown-btn">
+                        <img class="relation-icon" src="imgs/comercial.png" alt="Button 3">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="mundo6.html">
+                            <img src="imgs/gods.jpeg" alt="gods">
+                        </a>
+                        <a href="mundo7.html">
+                            <img src="imgs/demons.jpeg" alt="demons">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <!-- Button 2 -->
-            <div class="dropdown">
-                <button class="dropdown-btn">
-                    <img src="img/button2.png" alt="Button 2">
-                </button>
-                <div class="dropdown-content">
-                    <a href="mundo3.html">
-                        <img src="img/mundo3.png" alt="Mundo 3">
-                    </a>
-                    <a href="mundo4.html">
-                        <img src="img/mundo4.png" alt="Mundo 4">
-                    </a>
-                    <a href="mundo3.html">
-                        <img src="img/mundo3.png" alt="Mundo 5">
-                    </a>
-                </div>
-            </div>
-            <!-- Button 3 -->
-            <div class="dropdown">
-                <button class="dropdown-btn">
-                    <img src="img/button3.png" alt="Button 3">
-                </button>
-                <div class="dropdown-content">
-                    <a href="mundo3.html">
-                        <img src="img/mundo6.png" alt="Mundo 6">
-                    </a>
-                    <a href="mundo4.html">
-                        <img src="img/mundo7.png" alt="Mundo 7">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </section>
-        <aside>
-            <h3>Fun Facts</h3>
-            <p>(here put extra info, glosarium or notes)</p>
-        </aside>
-        <section id="Rules">
-        <h2 class="title_intro">Rules</h2>
-        <p>Rules over our kingdom</p>
-        <ul>
-            <li>Strength is earned, never given.<br>
-                Every Varkûn must prove themselves through trial or battle.</li>
-            <br>
-            <li>The Forge is sacred.<br>
-                No Orc may disrespect the Blood-Forges or the spirits that dwell within them.</li>
-            <br>
-            <li>Loyalty to the Clan above all.<br>
-                Betrayal is the one crime no Orc will ever forgive.</li>
-            <br>
-            <li>Fire speaks truth.<br>
-                Important decisions must be made around the Great Forge Flame.</li>
-            <br>
-            <li>Death fuels legacy.<br>
-                Fallen warriors are reforged into relics that guide the next generations.</li>
-        </ul>
-        </section>
+            <section id="Rules">
+                <h2 class="title_intro">Rules</h2>
+                <p>Rules over our kingdom</p>
+                <ul>
+                    <li>Strength is earned, never given.<br>
+                        Every Varkûn must prove themselves through trial or battle.</li>
+                    <br>
+                    <li>The Forge is sacred.<br>
+                        No Orc may disrespect the Blood-Forges or the spirits that dwell within them.</li>
+                    <br>
+                    <li>Loyalty to the Clan above all.<br>
+                        Betrayal is the one crime no Orc will ever forgive.</li>
+                    <br>
+                    <li>Fire speaks truth.<br>
+                        Important decisions must be made around the Great Forge Flame.</li>
+                    <br>
+                    <li>Death fuels legacy.<br>
+                        Fallen warriors are reforged into relics that guide the next generations.</li>
+                </ul>
+            </section>
     </main>
     <footer id="patas">
         <div class="links">
-            <a href="About us">About Us</a>
-            <a href="Inicio">Home</a>
-            <a href="GitHub">Github Profile</a>
+            <a href="about_us.html">About Us</a>
+            <a href="#">Home</a>
+            <a href="https://github.com/UlithG18/crudactivity-worldhub" target="_blank">Github Profile</a>
         </div>
+        <h2 id="footer-title">Varkun - Realm of the Blood-Forges</h2>
+        <p id=patas>
+            <strong>Clan Name:</strong> Volcanic Forgers<br><br>
+            <strong>Team Members:</strong> Julián Aponte, Andreina Arevalo, Faiber Camacho, Ulith Giraldo
+        </p>
         <p id="derechos">©2025 Varkun. All rights reserved.</p>
     </footer>
-    
+
 </body>
+
 </html>

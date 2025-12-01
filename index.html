@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>    
+<head>
     <link rel="stylesheet" href="/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Varkun | Kingdom of the Blood Forges...</title>
 </head>
+
 <body>
-    <!-- 1. Principal Header-->
+<audio id="sonora_uno" loop>
+    <source src="music/sonora_uno.wav" type="audio/wav">
+</audio>
+<button id="play_music" onclick="document.getElementById('sonora_uno').play()">
+    <img src="Img/play_music.svg" alt="Play Music" width="15" height="15">
+</button>
+
     <header><h1>Varkun</h1>
     <p id="subtitle">Kingdom of the Blood Forges......</p>
-    <!-- <img src ="logo.png" alt="Logo*"> -->
     </header>
-    <!-- 2. Integrated Navegation-->
+
     <nav>
         <a class="redirect" href="cardss.html">Catalog</a>
-        <a class="redirect" href="...">Atlas-Catalog</a>
+        <a class="redirect" href="...">Varkun-Catalog</a>
         <a class="redirect" href="...">System</a>
     </nav>
-    <!-- 3. Principal Content-->
+
     <main class="section">
-        <!-- 3.a) Introduction-->
         <section id="introduction">
             <h2 class="title_intro">About Varkun</h2>
             <p>The Varkun are a proud orcish race known for their strength, craftsmanship, and bond with fire. 
@@ -34,10 +39,7 @@
             <h4 class="title_intro">Origins</h4>
             <p>Says the first Varkun were born from the ashes of a celestial fire that struck the northern steppes, whether myth or truth, fire remains central to their identity and magic.</p>
         </section>
-        <section id="atlas">
-            <h2>Atlas / Catalog</h2>
-            <p>Short explanation about the galery</p>
-        </section>
+        <!--3.c) relations-->
         <section id="relations">
         <h2>Relations</h2>
         <p>Explanation how about fuction the world</p>
@@ -45,21 +47,20 @@
             <!-- BOTÓN 1 -->
             <div class="dropdown">
                 <button class="dropdown-btn">
-                    <img class="relation-icon" src="imgs/alliesimage.png" alt="Allies Button">
+                    <img src="imgs/alliesimage.png" alt="Boton 1">
                 </button>
-                <div class="dropdown-content">
-                    <a href="mundo1.html">
-                        <img src="goblins.png" alt="Mundo 1">Goblins 
-                    </a>
+
+                <div id="boton_uno">
+                    <a href="mundo1.html">"mundo uno"</a>
                     <a href="mundo2.html">
                         <img src="img/mundo2.png" alt="Mundo 2">
                     </a>
                 </div>
             </div>
-            <!-- BOTÓN 2 -->
+            <!-- Button 2 -->
             <div class="dropdown">
                 <button class="dropdown-btn">
-                    <img class="relation-icon" src="imgs/enemies.png" alt="Button 2">
+                    <img src="img/button2.png" alt="Button 2">
                 </button>
                 <div class="dropdown-content">
                     <a href="mundo3.html">
@@ -68,27 +69,31 @@
                     <a href="mundo4.html">
                         <img src="img/mundo4.png" alt="Mundo 4">
                     </a>
-                    <a href="mundo5.html">
+                    <a href="mundo3.html">
                         <img src="img/mundo3.png" alt="Mundo 5">
                     </a>
                 </div>
             </div>
-            <!-- BOTÓN 3 -->
+            <!-- Button 3 -->
             <div class="dropdown">
                 <button class="dropdown-btn">
-                    <img class="relation-icon" src="comercial.png" alt="Button 3">
+                    <img src="img/button3.png" alt="Button 3">
                 </button>
                 <div class="dropdown-content">
-                    <a href="mundo6.html">
+                    <a href="mundo3.html">
                         <img src="img/mundo6.png" alt="Mundo 6">
                     </a>
-                    <a href="mundo7.html">
+                    <a href="mundo4.html">
                         <img src="img/mundo7.png" alt="Mundo 7">
                     </a>
                 </div>
             </div>
         </div>
-        <!--4.c) Sistema / Regla-->
+        </section>
+        <aside>
+            <h3>Fun Facts</h3>
+            <p>(here put extra info, glosarium or notes)</p>
+        </aside>
         <section id="Rules">
         <h2 class="title_intro">Rules</h2>
         <p>Rules over our kingdom</p>
@@ -107,19 +112,17 @@
             <br>
             <li>Death fuels legacy.<br>
                 Fallen warriors are reforged into relics that guide the next generations.</li>
-        </ol>
+        </ul>
         </section>
-        <aside>
-            <h3>Fun Facts</h3>
-            <p>(here put extra info, glosarium or notes)</p>
-        </aside>
     </main>
-    <footer>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus vitae consequuntur, expedita fugiat aperiam ex distinctio corporis voluptatibus dolores reiciendis id dolore provident iste! Obcaecati fuga ipsum accusamus est dolorum?
+    <footer id="patas">
+        <div class="links">
+            <a href="About us">About Us</a>
+            <a href="Inicio">Home</a>
+            <a href="GitHub">Github Profile</a>
+        </div>
+        <p id="derechos">©2025 Varkun. All rights reserved.</p>
     </footer>
-
     
 </body>
-
-
 </html>

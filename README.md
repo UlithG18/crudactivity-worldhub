@@ -71,4 +71,4 @@ I created the homepage structure in HTML and worked on the visual layout of the 
 
 **Repository:** https://github.com/UlithG18/crudactivity-worldhub
 
-**Pge:**  https://ulithg18.github.io/crudactivity-worldhub/ 
+**Page:**  https://ulithg18.github.io/crudactivity-worldhub/ 

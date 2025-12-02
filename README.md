@@ -25,16 +25,16 @@ The site contains characters, places, weapons, and visual elements inspired by t
 ## Semantics Used
 We used a wide set of HTML5 semantic tags to ensure correct structure, accessibility, and clean organization:
 
-- '<header>'
-- '<nav>'
-- '<main>' 
-- '<section>' 
-- '<article>'
-- '<figure>'
-- '<img>'
-- '<footer>' 
-- '<audio>'
-- '<h1>', '<h2>', '<p>', '<strong>'
+- `<header>`
+- `<nav>`
+- `<main>` 
+- `<section>` 
+- `<article>`
+- `<figure>`
+- `<img>`
+- `<footer>` 
+- `<audio>`
+- `<h1>`, `<h2>`, `<p>`, `<strong>`
 - '<a>'
 
 ## Git & branches
